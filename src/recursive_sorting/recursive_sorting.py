@@ -13,6 +13,7 @@ def merge( arrA, arrB ):
       arrB.pop(0)
       print(merged_arr)
 
+  # this should append anything that got left out of the while loop
   for i in arrA:
     merged_arr.append(i)
 
